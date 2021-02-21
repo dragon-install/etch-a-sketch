@@ -1,0 +1,44 @@
+body {
+  font-family: 'DotGothic16', sans-serif;
+  background: #9bafb0;
+}
+ 
+/* Contains the grid */
+.p-container {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  height: 70vh;
+  width: 70vh;
+}
+
+button {
+  padding: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles the grid items */
+.div-style {
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.black {
+  background: black;
+}
